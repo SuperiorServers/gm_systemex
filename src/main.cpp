@@ -19,7 +19,6 @@ GMOD_MODULE_OPEN()
 	return 0;
 }
 
-// Everything should be gc'd now, so we only really have to worry about killing mysql here and freeing our refs
 GMOD_MODULE_CLOSE()
 {
 	return 0;
